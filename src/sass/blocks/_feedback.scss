@@ -1,0 +1,36 @@
+.feedback {
+    margin-bottom: 70px;
+    &__wrapper {
+        margin-top: 70px;
+    }
+    &__client {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    hr {
+        background-color: #f6f6f6;
+        border-bottom: none;
+        margin: 50px 0;
+    }
+    &__name-client {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    &__client-descr {
+        max-width: 660px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__descr {
+        margin-left: 60px;
+    }
+}

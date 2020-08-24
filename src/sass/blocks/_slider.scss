@@ -23,5 +23,21 @@
     left: auto;
 }
 .slick-dots {
-    list-style-type: circle;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    li {
+        color: $main-color;
+    }
+    .slick-active {
+        list-style-type: circle;
+    }
+}
+button[role="tab"] {
+    background-color: #fff;
+    color: #fff;
+    border:none;
+    outline:none;
 }

@@ -27,6 +27,30 @@
     .feed-form {
         margin: 0 auto;
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+            margin-top: 45px;
+        }
+        &-item {
+            margin: 10px 10px;
+        }
+    }
+    .feedback {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__descr, &__img {
+            margin-left: 20px;
+        }
+        &__descr {
+            margin-right: 20px;
+        }
+        hr {
+            width: 80%;
+            margin: 30px auto 30px auto;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -51,6 +75,24 @@
         }
         &__icon {
             margin-bottom: 25px;
+        }
+    }
+    .slider__inner {
+        width: unset;
+    }
+    .slick-slide {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 150px;
+            font-size: 15px;
+        }
+        &__tabs {
+            margin-top: 45px;
         }
     }
 }
@@ -91,6 +133,29 @@
             margin-top: 50px;
         }
     }
+    .catalog {
+        &__tab {
+            width: 120px;
+            font-size: 13px;
+        }
+    }
+    .feedback {
+        &__client {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__subtitle, &__name-client {
+            text-align: center;
+        }
+        &__client-descr {
+            padding: 0 15px 0 15px;
+        }
+        &__img {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
 }
 
 @media (max-width: 471px) {
@@ -100,6 +165,18 @@
         }
         &__subheader {
             font-size: 20px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100vw;
+        }
+        &__address {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        &__social-item {
+            border: none;
         }
     }
 }
@@ -126,6 +203,24 @@
     .consultation {
         &__descr {
             font-size: 18px;
+        }
+    }
+    .catalog {
+        .title {
+            font-size: 25px;
+        }
+        &__tab {
+            width: 90px;
+            font-size: 11px;
+            &:nth-child(3) {
+                line-height: 24px;
+            }
+        }
+    }
+    .footer {
+        &__address {
+            font-size: 20px;
+            line-height: 20px;
         }
     }
 }
@@ -177,6 +272,11 @@
     }
     .feed-form {
         width: 280px;
+    }
+    .feedback {
+        title {
+            font-size: 24px;
+        }
     }
 }
 
